@@ -1,0 +1,35 @@
+<project type="project" version="1">
+    <name>project</name>
+    <left type="tcpIpDataSource" version="1">
+        <databaseName>10000000000</databaseName>
+        <userName>root</userName>
+        <savePassword>True</savePassword>
+        <password encrypted="True">aehQrsgVck4=</password>
+        <server>localhost</server>
+        <port>3306</port>
+    </left>
+    <right type="tcpIpDataSource" version="1">
+        <databaseName>20610816887</databaseName>
+        <userName>root</userName>
+        <savePassword>True</savePassword>
+        <password encrypted="True">aehQrsgVck4=</password>
+        <server>localhost</server>
+        <port>3306</port>
+    </right>
+    <direction>From1To2</direction>
+    <options type="options" version="1">
+        <options>IncludeScriptHeader,IgnoreWhitespace,IgnoreBackticks,IgnoreCase,IgnoreComments,IgnoreConstraintNames,IgnoreAutoIncrement,IgnoreCharsetCollation,IncludeDatabaseNameInDeploymentScript,IncludeUseStatementInDeploymentScript,IncludeDefaultSetStatementsInDeploymentScript</options>
+    </options>
+    <differenceFilter type="differenceFilter" version="1">
+        <objectTypes elementType="string" elementCount="0" />
+    </differenceFilter>
+    <selectedRows type="selectedRows" version="1">
+        <groupingStyle>Comparison</groupingStyle>
+        <selectedObjectTypeGroups elementType="string" elementCount="0" />
+        <selectedDifferenceTypeGroups elementType="string" elementCount="2">
+            <string>Different</string>
+            <string>OnlyIn1</string>
+        </selectedDifferenceTypeGroups>
+        <selectedObjects elementType="database" elementCount="0" />
+    </selectedRows>
+</project>
