@@ -1,0 +1,6 @@
+# Ignorar todos los archivos .sql
+*.sql
+# Excepto los que comienzan con 'script'
+.env
+*.mdc
+*.mcp

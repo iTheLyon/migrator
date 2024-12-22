@@ -1,2 +1,2 @@
 # migrator
-Actualizar de una base antigua a una base actualizada
+migrador de base datos con python
